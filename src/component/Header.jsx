@@ -1,10 +1,31 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+
 
 const Header = () => {
+  const [navbarBg, setNavbarBg] = useState("bg-transparent");
+
+  // Change the navbar background when scrolling
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 60) {
+        setNavbarBg("bg-base-100 shadow-lg top-0");
+      } else {
+        setNavbarBg("bg-transparent top-0");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="bg-[#f9f9ff]">
-        <div className="navbar w-[70%] mx-auto">
+    <div className={`z-10 fixed w-full ${navbarBg} bg-opacity-90 bg-blur-md`}>
+        <div className="navbar w-[70%] mx-auto py-2">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,7 +46,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-3 shadow"
           >
             <li>
               <Link>Statistic</Link>
@@ -41,7 +62,7 @@ const Header = () => {
         <Link className="text-black font-extrabold text-3xl">CareerHunt</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal font-bold px-1">
           <li>
             <Link>Statistic</Link>
           </li>
@@ -54,7 +75,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="px-7 py-5 rounded-lg cursor-pointer bg-[#9873FF] hover:bg-[#7E90FE] text-white text-lg">Start Applying</a>
+        <Link to="/all-jobs" className="px-6 py-4 rounded-lg cursor-pointer gradient-btn-bg hover:bg-[#7E90FE] text-white text-lg">Start Applying</Link>
       </div>
     </div>
     </div>

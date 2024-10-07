@@ -8,6 +8,7 @@ import './index.css'
 import Main from './layout/Main';
 import Home from './pages/Home/Home';
 import AllJobs from './pages/AllJobs/Alljobs';
+import Job from './pages/AllJobs/job';
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "all-jobs",
         element: <AllJobs></AllJobs>
+      },
+      {
+        path: "jobs/:id",
+        element: <Job></Job>
       }
     ]
   },

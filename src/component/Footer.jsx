@@ -59,7 +59,7 @@ const Footer = () => {
           </p>
         </nav>
       </div>
-      <div className="footer justify-items-center justify-between w-[70%] mx-auto pb-32 pt-8 text-base-content mt-14 border-t-2 border-gray-600">
+      <div className="footer justify-items-center justify-between w-[70%] mx-auto pb-14 pt-8 text-base-content mt-14 border-t-2 border-gray-600">
         <aside>
           <p className="text-base-300">
             © {new Date().getFullYear()} - CareerHunt. All Rights Reserved

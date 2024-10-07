@@ -8,3 +8,21 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.gradient-text {
+  background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+  background-clip: text;
+  -webkit-background-clip: text; /* For Webkit-based browsers like Chrome and Safari */
+  -webkit-text-fill-color: transparent; /* Makes the text transparent to reveal the background */
+}
+
+.gradient-btn-bg{
+  background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+.gradient-btn-bg:hover{
+  background: linear-gradient(90deg, #9873FF 0%,  #7E90FE 100%);
+}
+
+.gradient-bg{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+}

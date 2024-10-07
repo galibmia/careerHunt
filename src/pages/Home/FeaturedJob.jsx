@@ -3,14 +3,15 @@ import { IoLocationOutline } from "react-icons/io5";
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const AllJobs = () => {
-    const [jobsData, setJobsData] = useState(null);
+const FeaturedJob = () => {
+  const [jobsData, setJobsData] = useState(null);
 
   useEffect(() => {
     fetch("/jobData.json")
       .then((res) => res.json())
       .then((data) => {
-        setJobsData(data);
+        // console.log(data.slice(0, 4));
+        setJobsData(data.slice(0, 4));
       });
   }, []);
 
@@ -19,15 +20,16 @@ const AllJobs = () => {
   }
 
   return (
-    <div className="w-[70%] mx-auto py-24">
-       <div className="text-center mb-8">
-        <h1 className="text-5xl font-extrabold">All Jobs</h1>
+    <div className="my-32">
+      <div className="text-center mb-8">
+        <h1 className="text-5xl font-extrabold">Featured Jobs</h1>
         <p className="text-gray-400 my-4">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-4 my-10">
+
+      <div className="grid grid-cols-2 gap-4 mb-8">
         {jobsData.map((jobData) => (
           <div
             className="p-8 border rounded-lg border-[#E8E8E8] shadow-sm"
@@ -62,17 +64,20 @@ const AllJobs = () => {
                 {jobData.salaryRange}
               </p>
             </div>
-            <Link
-              to={`/jobs/${jobData.id}`}
-              className="gradient-btn-bg text-white px-[18px] py-[11px] rounded"
-            >
+            <Link to={`/jobs/${jobData.id}`} className="gradient-btn-bg text-white px-[18px] py-[11px] rounded">
               View Details
             </Link>
           </div>
         ))}
       </div>
+
+      <div className="flex justify-center">
+        <Link to={'all-jobs'} className="gradient-btn-bg text-white px-[28px] py-[19px] rounded">
+          Show All Jobs
+        </Link>
+      </div>
     </div>
   );
 };
 
-export default AllJobs;
+export default FeaturedJob;

@@ -6,7 +6,7 @@ import icon4 from "../../assets/icons/chip 1.svg"
 
 const JobCategory = () => {
     return (
-        <div className='my-32 w-[70%] mx-auto'>
+        <div className='my-32'>
             <h1 className='text-5xl font-extrabold text-center'>Job Category List</h1>
             <p className='text-center text-gray-400 my-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 

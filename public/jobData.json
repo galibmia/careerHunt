@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "companyLogo": "https://i.ibb.co.com/qNFQyBG/google-1-1-1.png",
+      "companyName": "Google",
+      "shortLocation": "California, USA",
+      "contactInfo": {
+        "phone": "+16502530000",
+        "email": "careers@google.com",
+        "location": "Mountain View, California, USA"
+      },
+      "jobTitle": "Software Engineer",
+      "jobType": "Permanent",
+      "jobLocation": "Onsite",
+      "jobDescription": "As a Software Engineer, you will be responsible for developing, testing, and maintaining various software systems. You will collaborate with cross-functional teams to design scalable software solutions and write clean, efficient code. You will also participate in code reviews, debug issues, and ensure the performance and security of applications.",
+      "jobResponsibilities": "You will be responsible for designing, developing, and implementing scalable software solutions that meet user needs. Collaborating with cross-functional teams, you will ensure that the software developed is efficient, secure, and high-performing. Regularly reviewing code, identifying bugs, and optimizing application performance will also be part of your daily tasks. Additionally, you'll be expected to keep up with the latest industry trends and integrate new technologies as needed.",
+      "educationalRequirement": "BSc in Computer Science or related field",
+      "experience": "2+ years of experience in software development",
+      "salaryRange": "$100,000 - $150,000",
+      "postDate": "2024-10-01"
+    },
+    {
+      "id": 2,
+      "companyLogo": "https://i.ibb.co.com/w4b41hs/Group-10021-2.png",
+      "companyName": "Starbucks",
+      "shortLocation": "Washington, USA",
+      "contactInfo": {
+        "phone": "+12064644834",
+        "email": "jobs@starbucks.com",
+        "location": "Seattle, Washington, USA"
+      },
+      "jobTitle": "Barista",
+      "jobType": "Part-time",
+      "jobLocation": "Onsite",
+      "jobDescription": "As a Barista, you will be the face of Starbucks, providing excellent customer service by preparing and serving coffee beverages. You will ensure orders are made accurately and maintain a clean, welcoming environment. Additionally, you will handle cash transactions, restock supplies, and follow health and safety guidelines.",
+      "jobResponsibilities": "You will be responsible for preparing high-quality coffee and espresso beverages, maintaining cleanliness standards, and providing excellent customer service. You'll be interacting with customers to take orders, manage cash registers, and ensure the store is well-stocked. You'll also follow food safety protocols and ensure that the workspace adheres to health and hygiene regulations.",
+      "educationalRequirement": "High School Diploma or equivalent",
+      "experience": "No experience required",
+      "salaryRange": "$12 - $15/hour",
+      "postDate": "2024-10-02"
+    },
+    {
+      "id": 3,
+      "companyLogo": "https://i.ibb.co.com/8N5bC62/Group-10021-3.png",
+      "companyName": "Tesla",
+      "shortLocation": "California, USA",
+      "contactInfo": {
+        "phone": "+16506812000",
+        "email": "jobs@tesla.com",
+        "location": "Palo Alto, California, USA"
+      },
+      "jobTitle": "Production Supervisor",
+      "jobType": "Permanent",
+      "jobLocation": "Onsite",
+      "jobDescription": "As a Production Supervisor at Tesla, you will lead a team in the manufacturing facility, ensuring that production goals are met while maintaining high safety and quality standards. You will oversee the workflow, optimize processes, and motivate your team to meet daily targets.",
+      "jobResponsibilities": "You will be responsible for overseeing the production floor, managing the daily tasks of production teams, and ensuring quality control measures are implemented. You will monitor output to meet daily quotas while maintaining safety protocols. Your role also includes troubleshooting issues in production processes and facilitating continuous improvement initiatives.",
+      "educationalRequirement": "Bachelor's degree in Engineering or related field",
+      "experience": "3+ years in a supervisory role in manufacturing",
+      "salaryRange": "$80,000 - $100,000",
+      "postDate": "2024-10-03"
+    },
+    {
+      "id": 4,
+      "companyLogo": "https://i.ibb.co.com/9Yq00d3/Group-10021-1.png",
+      "companyName": "Amazon",
+      "shortLocation": "Washington, USA",
+      "contactInfo": {
+        "phone": "+18882804331",
+        "email": "careers@amazon.com",
+        "location": "Seattle, Washington, USA"
+      },
+      "jobTitle": "Warehouse Associate",
+      "jobType": "Permanent",
+      "jobLocation": "Onsite",
+      "jobDescription": "As a Warehouse Associate, you will work in a fast-paced environment to fulfill customer orders. Responsibilities include picking, packing, and shipping products efficiently. You will also help maintain inventory, perform quality checks, and ensure that all warehouse procedures are followed to meet daily operational goals.",
+      "jobResponsibilities": "You will be responsible for receiving and processing stock, picking and packing orders, and preparing them for shipment. You will maintain inventory accuracy and quality control standards. You'll also ensure that all safety regulations are followed, equipment is well-maintained, and tasks are completed within set timeframes.",
+      "educationalRequirement": "High School Diploma or equivalent",
+      "experience": "No experience required",
+      "salaryRange": "$15 - $18/hour",
+      "postDate": "2024-10-04"
+    },
+    {
+      "id": 5,
+      "companyLogo": "https://i.ibb.co.com/1sT1yCB/airbnb-logo-belo-1-1.png",
+      "companyName": "Airbnb LLC",
+      "shortLocation": "New York, USA",
+      "contactInfo": {
+        "phone": "+19148233303",
+        "email": "hr@airbnb.com",
+        "location": "Armonk, New York, USA"
+      },
+      "jobTitle": "Data Scientist",
+      "jobType": "Permanent",
+      "jobLocation": "Remote",
+      "jobDescription": "As a Data Scientist at IBM, you will analyze complex datasets to uncover insights and trends that help drive business decisions. You will develop algorithms, build predictive models, and collaborate with stakeholders to identify opportunities for optimizing processes.",
+      "jobResponsibilities": "You will be responsible for gathering and analyzing large datasets, creating predictive models, and identifying trends to improve business outcomes. You will communicate your findings to stakeholders and offer actionable insights. In addition, you will collaborate with data engineers and analysts to improve data quality and model accuracy.",
+      "educationalRequirement": "BSc in Data Science, Statistics, or related field",
+      "experience": "2+ years in data analysis or machine learning",
+      "salaryRange": "$90,000 - $130,000",
+      "postDate": "2024-10-05"
+    },
+    {
+      "id": 6,
+      "companyLogo": "https://i.ibb.co.com/ZGDRJr6/netflix-4-1.png",
+      "companyName": "Netflix",
+      "shortLocation": "California, USA",
+      "contactInfo": {
+        "phone": "+16505343300",
+        "email": "jobs@netflix.com",
+        "location": "Menlo Park, California, USA"
+      },
+      "jobTitle": "Product Manager",
+      "jobType": "Permanent",
+      "jobLocation": "Remote",
+      "jobDescription": "As a Product Manager at Netflix, you will be responsible for guiding cross-functional teams to develop new products or improve existing ones. You will define the product vision, gather requirements, and prioritize features based on customer needs and business objectives.",
+      "jobResponsibilities": "You will be responsible for managing the entire product lifecycle, from concept to launch. This includes conducting market research, setting priorities, and ensuring that product development is aligned with business goals. You will also work closely with engineering, design, and marketing teams to drive product innovation and ensure customer satisfaction.",
+      "educationalRequirement": "Bachelor's in Business or related field",
+      "experience": "3+ years in product management",
+      "salaryRange": "$120,000 - $160,000",
+      "postDate": "2024-10-06"
+    },
+    {
+      "id": 7,
+      "companyLogo": "https://i.ibb.co.com/qNFQyBG/google-1-1-1.png",
+      "companyName": "Google",
+      "shortLocation": "London, United Kingdom",
+      "contactInfo": {
+        "phone": "+441932261000",
+        "email": "recruitment@google.com",
+        "location": "London, United Kingdom"
+      },
+      "jobTitle": "Marketing Executive",
+      "jobType": "Permanent",
+      "jobLocation": "Onsite",
+      "jobDescription": "As a Marketing Executive at Google, you will develop and execute marketing campaigns that align with the company's objectives. You will work closely with the sales and product teams to create brand strategies, manage advertising efforts, and analyze market trends to optimize campaigns.",
+      "jobResponsibilities": "You will be responsible for creating marketing campaigns that effectively promote Google's products. This includes managing budgets, analyzing performance metrics, and conducting market research to identify new opportunities. You will also collaborate with creative teams to produce marketing materials that resonate with target audiences.",
+      "educationalRequirement": "BSc in Marketing, Business Administration, or related field",
+      "experience": "2+ years in marketing or advertising",
+      "salaryRange": "$70,000 - $90,000",
+      "postDate": "2024-10-06"
+    }
+  ]
+  
