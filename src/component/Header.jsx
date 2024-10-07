@@ -25,8 +25,8 @@ const Header = () => {
 
   return (
     <div className={`z-10 fixed w-full ${navbarBg} bg-opacity-90 bg-blur-md`}>
-        <div className="navbar w-[70%] mx-auto py-2">
-      <div className="navbar-start">
+        <div className="navbar md:w-[70%] mx-auto py-2">
+      <div className="navbar-start gap-10">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -74,8 +74,8 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <Link to="/all-jobs" className="px-6 py-4 rounded-lg cursor-pointer gradient-btn-bg hover:bg-[#7E90FE] text-white text-lg">Start Applying</Link>
+      <div className="navbar-end hidden md:flex">
+        <Link to="/all-jobs" className="px-6 py-4 rounded-lg cursor-pointer gradient-btn-bg hover:bg-[#7E90FE] text-white text-lg ">Start Applying</Link>
       </div>
     </div>
     </div>

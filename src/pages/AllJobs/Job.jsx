@@ -35,9 +35,9 @@ const Job = () => {
   
   if (!jobIds.includes(id)) {
     jobIds.push(id);
+    localStorage.setItem("jobId", JSON.stringify(jobIds));
   }
-
-  localStorage.setItem("jobId", JSON.stringify(jobIds));
+    
   }
 
   return (

@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className=''>
             <Hero></Hero>
-            <div className='w-[70%] mx-auto'>
+            <div className='md:w-[70%] mx-auto'>
             <JobCategory></JobCategory>
             <FeaturedJob></FeaturedJob>
             </div>
