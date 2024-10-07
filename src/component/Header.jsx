@@ -52,7 +52,7 @@ const Header = () => {
               <Link>Statistic</Link>
             </li>
             <li>
-              <Link>Applied Jobs</Link>
+              <Link to="/applied-jobs">Applied Jobs</Link>
             </li>
             <li>
               <Link>Blog</Link>
@@ -67,7 +67,7 @@ const Header = () => {
             <Link>Statistic</Link>
           </li>
           <li>
-            <Link>Applied Jobs</Link>
+            <Link to="/applied-jobs">Applied Jobs</Link>
           </li>
           <li>
             <Link>Blog</Link>

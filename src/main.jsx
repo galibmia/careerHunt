@@ -7,8 +7,9 @@ import {
 import './index.css'
 import Main from './layout/Main';
 import Home from './pages/Home/Home';
-import AllJobs from './pages/AllJobs/Alljobs';
 import Job from './pages/AllJobs/job';
+import AllJobs from './pages/AllJobs/AllJobs';
+import AppliedJobs from './pages/AppliedJobs/AppliedJobs';
 
 
 const router = createBrowserRouter([
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
       {
         path: "jobs/:id",
         element: <Job></Job>
-      }
+      },
+      {
+        path: "applied-jobs",
+        element: <AppliedJobs></AppliedJobs>
+      },
     ]
   },
 ]);

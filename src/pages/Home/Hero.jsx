@@ -3,7 +3,7 @@ import heroImg from "../../assets/images/Hero.png";
 
 const Hero = () => {
   return (
-    <div className="hero bg-[#f9f9ff] pt-8">
+    <div className="hero bg-[#f9f9ff] pt-14">
       <div className="hero-content pb-0 flex-col lg:flex-row-reverse">
         <img
           src={heroImg}
