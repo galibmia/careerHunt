@@ -37,19 +37,19 @@ const Job = () => {
     jobIds.push(id);
     localStorage.setItem("jobId", JSON.stringify(jobIds));
   }
-    
+
   }
 
   return (
     <div className="">
       <div>
-        <img className="w-full relative" src={bgImg} alt="" />
-        <h1 className="text-2xl font-extrabold text-black text-center absolute top-60 left-[45%]">
+        <img className="w-full h-40 md:h-auto relative" src={bgImg} alt="" />
+        <h1 className="text-2xl font-extrabold text-black text-center absolute top-24 left-[35%]">
           Job Details
         </h1>
       </div>
-      <div className="flex gap-8 w-[70%] mx-auto my-32">
-        <div className="w-[70%]">
+      <div className="md:flex gap-8 md:w-[70%] md:mx-auto mx-10 my-10 md:my-32">
+        <div className="md:w-[70%]">
           <p>
             <span className="font-bold">Job Description:</span>{" "}
             {jobData.jobDescription}
@@ -67,19 +67,19 @@ const Job = () => {
             <span className="block mt-4">{jobData.experience}</span>
           </p>
         </div>
-        <div className="w-[30%]">
-          <div className="gradient-bg p-8 rounded">
+        <div className="md:w-[30%]">
+          <div className="gradient-bg p-4 md:p-8 rounded">
             <p className="">
               <span className="font-bold text-xl">Job Details</span>
               <hr className="mt-2 gradient-bg" />
             </p>
-            <p className="flex gap-2 items-center text-xl font-medium my-3 text-[#474747] ">
-              <AiOutlineDollarCircle className="gradient-text text-2xl" />{" "}
+            <p className="flex gap-2 items-center text-lg md:text-xl font-medium my-3 text-[#474747] ">
+              <AiOutlineDollarCircle className="gradient-text text-xl md:text-2xl" />{" "}
               <span className="text-[#474747] font-bold">Salary :</span>{" "}
               {jobData.salaryRange}
             </p>
-            <p className="flex gap-2 items-center text-xl font-medium my-3 text-[#474747] ">
-              <MdOutlineSubtitles className="gradient-text text-2xl" />{" "}
+            <p className="flex gap-2 items-center text-lg md:text-xl font-medium my-3 text-[#474747] ">
+              <MdOutlineSubtitles className="gradient-text text-xl md:text-2xl" />{" "}
               <span className="text-[#474747] font-bold">Job Title :</span>{" "}
               {jobData.jobTitle}
             </p>
